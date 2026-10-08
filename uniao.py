@@ -15,6 +15,7 @@ def abrir(numero):
             [sys.executable, peer, "--externo"],
             creationflags=subprocess.CREATE_NEW_CONSOLE,
         )
+        
     else:
         # Comando para Linux (Ubuntu)
         env = dict(os.environ)
